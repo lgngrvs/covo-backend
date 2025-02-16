@@ -4,9 +4,10 @@ DROP TABLE IF EXISTS events;
 CREATE TABLE events (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
+    date DATETIME NOT NULL,
+    location TEXT NOT NULL,
     description TEXT NOT NULL,
-    imgurl VARCHAR(255) NOT NULL,
-    date DATETIME NOT NULL
+    imgurl VARCHAR(255) NOT NULL
     -- Optionally, add a FULLTEXT index for search:
     -- , FULLTEXT(title, description)
 );
