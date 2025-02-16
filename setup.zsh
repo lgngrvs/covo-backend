@@ -23,6 +23,7 @@ INSERT INTO events (title, date, location, description, imgurl) VALUES
 ('fake event title', '2025-02-14 23:55:00', 'fake location', 'fake event description', "h"),
 ('Treehacks', "2025-02-15 12:00:00", 'Huang', "get hackin", "h"),
 ("Slecture", "2025-02-14 12:00:00", "Slounge", "Knowledge", "h"),
-("Dinner", "2025-02-13 17:00:00", "Flomo", "food", "h");
+("Dinner", "2025-02-13 17:00:00", "Flomo", "food", "h"),
+("WOW IT WORKS!", "2025-02-13 17:00:00", "WAHOOO", "WEEE", "YEYA");
 SELECT * FROM events;
 EOF
